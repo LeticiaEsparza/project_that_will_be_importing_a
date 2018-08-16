@@ -4,6 +4,7 @@ view: user_facts_imported {
 
   dimension_group: new_date_field {
     type: time
+    timeframes: [raw, date, time, week, month, quarter, year]
     sql: DATE_SUB(${created_at_time}, INTERVAL 1 MONTH);;
   }
 }
