@@ -5,6 +5,7 @@ include: "*.view"
 
 # include all the dashboards
 #include: "*.dashboard"
+
 include: "//project_that_will_be_imported_b/user_facts.view.lkml"
 
 datagroup: project_that_will_be_importing_a_default_datagroup {
